@@ -81,7 +81,6 @@ async function build() {
     const relPath = path.relative(pagesDir, filePath);
     const raw = await fs.readFile(filePath, "utf8");
     const { meta, content } = parseMetaAndContent(raw);
-    console.log(meta);
 
     const title =
       meta.title ||
