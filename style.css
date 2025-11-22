@@ -193,10 +193,13 @@ li {
   padding: 1.5rem;
 }
 #lang-sel>* {
-  padding: 7px;
+  padding: 7px 7px 7px 5px;
   font-family:VT323;
   font-size: 1.9rem;
   line-height: 1.1rem;
+}
+#lang-sel .current:first-child {
+  padding: 7px;
 }
 #lang-sel .current {
   font-weight: bold;
