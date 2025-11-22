@@ -156,6 +156,13 @@ article.single p {
   max-width: 720px;
   margin: 0 auto;
 }
+article.single p.note span {
+	padding: 1rem;
+	margin: 1rem 0;
+  border: 1px solid #811;
+  background: #211;
+  display: block;
+}
 picture img {
   margin: 15px auto;
   display: block;
